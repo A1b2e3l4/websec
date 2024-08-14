@@ -1,0 +1,12 @@
+{
+  "name": "web-security-website",
+  "version": "1.0.0",
+  "description": "A website for teaching web security with limited user access.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^10.8.1"
+  }
+}

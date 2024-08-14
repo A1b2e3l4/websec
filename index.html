@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Security Course</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to the Web Security Course</h1>
+        <p>Learn the essentials of web security with our expert-led webinars.</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#info">Course Information</a></li>
+            <li><a href="#webinars">Upcoming Webinars</a></li>
+        </ul>
+    </nav>
+
+    <section id="info">
+        <h2>Course Information</h2>
+        <p>In this course, you will learn about:</p>
+        <ul>
+            <li>Understanding and mitigating common web vulnerabilities (e.g., XSS, SQL Injection)</li>
+            <li>Secure coding practices</li>
+            <li>Implementing HTTPS and SSL/TLS</li>
+            <li>Authentication and Authorization mechanisms</li>
+            <li>Introduction to Web Application Firewalls (WAFs)</li>
+        </ul>
+    </section>
+
+    <section id="webinars">
+        <h2>Upcoming Webinars</h2>
+        <p>Join our webinars directly from this page. Register early to secure your spot!</p>
+        <ul id="webinar-list"></ul>
+    </section>
+
+    <section id="add-webinar">
+        <h2>Add New Webinar</h2>
+        <form id="webinar-form">
+            <label for="title">Title:</label>
+            <input type="text" id="title" name="title" required><br>
+
+            <label for="date">Date:</label>
+            <input type="date" id="date" name="date" required><br>
+
+            <label for="time">Time:</label>
+            <input type="time" id="time" name="time" required><br>
+
+            <label for="link">Link:</label>
+            <input type="url" id="link" name="link" required><br>
+
+            <button type="submit">Add Webinar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>© 2024 Web Security Course. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
